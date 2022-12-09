@@ -1,0 +1,20 @@
+.logo {
+    padding: 20px 0 20px 0;
+
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    font-family: $secondary-font;
+
+    color: $accent-color;
+
+    &__header {
+        color: $black-color;
+    }
+
+    &__footer {
+        color: $secondary-color;
+    }
+}

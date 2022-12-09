@@ -1,0 +1,46 @@
+.network {
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    &--team {
+        margin-bottom: 30px;
+    }
+}
+
+.network__icon {
+    transition: background-color 250ms $timing-function;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 10%);
+
+    &:hover,
+    &:focus {
+        background-color: $accent-color;
+    }
+
+    &--team {
+        background-color: $secondary-color;
+    }
+}
+
+.network__icon--team:hover>.network__svg--team {
+    fill: $secondary-color;
+}
+
+.network__svg {
+    fill: $secondary-color;
+
+    &--team {
+        transition: fill 250ms $timing-function;
+
+        fill: $icon-color;
+    }
+}
