@@ -69,10 +69,7 @@
         }
     }
 
-    &__text {
-        @media screen and (min-width: 480px) {
-            width: 354px;
-        }
+    &__text 
 
         font-size: 14px;
         line-height: 1.71;
